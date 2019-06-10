@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jasper's Game</title>
+    <script src = "script.js"></script>
+    <link rel="stylesheet" hRef="styles.css"/>
+</head>
+<body onload="startGame()" id="char">
+
+<div id="header">
+    <h1>Alby Bird</h1>
+    <h2>A Game by: Jasper</h2>
+    <h3>Use Side Arrow Keys to move Mr. Albinson Laterally</h3>
+    <h3>Your Score: 3/7</h3>
+</div>
+<div id="game"></div>
+<div id="controls"><br>
+    <button onmousedown="up(-0.1)" onmouseup="up(0.1)">Up</button>
+    <br>
+    <button id="reset" onclick="newEntry()">Play again!</button>
+</div>
+</body>
+</html>

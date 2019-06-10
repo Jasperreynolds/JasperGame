@@ -1,0 +1,19 @@
+body{
+    background: #e7e9df;
+}
+
+#header{
+    position: relative;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+#controls{
+    position: relative;
+    text-align: center;
+}
+
+#game {
+    position: relative;
+    text-align: center;
+    border: 10px solid black;
+}
